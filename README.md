@@ -1,4 +1,5 @@
-# code-quantum
+# Code Quantum
+
 A place to stash my quantum computing experiments
 
 ## Hadamard Basic
