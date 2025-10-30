@@ -14,6 +14,7 @@ for more details.
 An implementation of Grover's quantum search algorithm using 5 qubits and 3 classical bits for measurement. Grover's algorithm provides a quadratic speedup for searching an unsorted database, finding a marked item in O(√N) time compared to O(N) classically.
 
 The circuit demonstrates the key components of Grover's algorithm:
+
 - Initialization with Hadamard gates to create superposition
 - Oracle function that marks the target solution
 - Diffusion operator for amplitude amplification
@@ -26,6 +27,7 @@ See [https://en.wikipedia.org/wiki/Grover%27s_algorithm](https://en.wikipedia.or
 A quantum version of the Magic 8-Ball fortune teller implemented as a Jupyter notebook using Qiskit. This experiment uses 3 qubits in superposition to generate 8 equally likely outcomes (2³ = 8), each mapped to a different fortune-telling answer.
 
 The notebook demonstrates:
+
 - Creating quantum circuits with superposition using Hadamard gates
 - Measuring quantum states and interpreting results
 - Running circuits on both quantum simulators and real IBM quantum hardware
